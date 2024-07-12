@@ -5,19 +5,19 @@ Universal IP Scanner is a versatile tool for scanning IP addresses across variou
 ## How to Use
 
 ### Preparation
-1. **Create an IP List:**
+**Create an IP List:**
    - Change the name of your file to `ip.txt` (or create a new one) and list the IP addresses you want to scan within it.
    
 ### Windows PowerShell Instructions
 
-2. **Bypass Execution Policy:**
+1. **Bypass Execution Policy:**
    - To run PowerShell scripts, you need to bypass the execution policy. Open PowerShell as an administrator and execute the following commands:
      ```powershell
      Set-ExecutionPolicy RemoteSigned
      Set-ExecutionPolicy Unrestricted
      ```
 
-3. **Running the Script:**
+2. **Running the Script:**
    - With the execution policy set, you can now run the IP Scanner script:
      ```powershell
      powershell -ExecutionPolicy Bypass -File <file>
@@ -25,13 +25,13 @@ Universal IP Scanner is a versatile tool for scanning IP addresses across variou
 
 ### Python Instructions
 
-4. **Install Required Packages:**
+1. **Install Required Packages:**
    - Ensure you have all the necessary Python packages installed. You can do this by running the following command in your terminal:
      ```bash
      pip install -r requirements.txt
      ```
 
-5. **Run the Python Script:**
+2. **Run the Python Script:**
    - Execute the Python script to start scanning the IPs listed in `ip.txt`.
 
 ### Features

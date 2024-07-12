@@ -42,9 +42,6 @@ Universal IP Scanner is a versatile tool for scanning IP addresses across variou
 ### Contribution
 We welcome contributions! Please fork the repository and submit a pull request for any features or bug fixes you want to contribute.
 
-### License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ---
 
 With this tool, network administrators and IT professionals can effortlessly keep track of their devices' statuses across the network, making network management more efficient and streamlined.
